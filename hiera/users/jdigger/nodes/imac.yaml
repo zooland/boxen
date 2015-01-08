@@ -1,4 +1,0 @@
----
-boxen::security::require_password: false
-people::jdigger::system_roles:
-  - personal

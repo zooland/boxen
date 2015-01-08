@@ -1,0 +1,4 @@
+---
+boxen::security::require_password: false
+people::zoobert::system_roles:
+  - personal

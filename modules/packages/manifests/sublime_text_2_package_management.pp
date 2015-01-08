@@ -1,11 +1,11 @@
 # == Description
 #
-# Provides a nice "shim" for easily adding Sublime Text 2 packages,
+# Provides a nice "shim" for easily adding Sublime Text 3 packages,
 # especially using Hiera data.
 #
 # == Hiera
 #
-# Hiera will do a "hash merge" on "sublime_text_2::packages"
+# Hiera will do a "hash merge" on "sublime_text_3::packages"
 #
 # == Parameters
 #
@@ -20,13 +20,13 @@
 #
 # In Hiera:
 #
-# sublime_text_2::packages:
+# sublime_text::packages:
 #   'Git':
 #     source: 'kemayo/sublime-text-git'
 #   'GitGutter':
 #     source: 'jisaacks/GitGutter'
 #
-class packages::sublime_text_2_package_management (
+class packages::sublime_text_package_management (
   $the_packages = undef
 ) {
 
@@ -34,9 +34,9 @@ class packages::sublime_text_2_package_management (
     $packages = $the_packages
   }
   else {
-    $packages = hiera_hash('sublime_text_2::packages', {})
+    $packages = hiera_hash('sublime_text::packages', {})
   }
 
   validate_hash($packages)
-  create_resources('sublime_text_2::package', $packages)
+  create_resources('sublime_text::package', $packages)
 }

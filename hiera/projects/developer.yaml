@@ -10,7 +10,7 @@ intellij::edition: 'ultimate'
 intellij::version: '13.1.2'
 
 # "Sublime" is not in the name and alphabetized to make it easier to track
-sublime_text_2::packages:
+sublime_text::packages:
   'AsciiDoc':
     source: 'SublimeText/AsciiDoc'
   'BracketHighlighter':

@@ -1,0 +1,4 @@
+---
+boxen::security::require_password: true
+people::zoobert::system_roles:
+  - work

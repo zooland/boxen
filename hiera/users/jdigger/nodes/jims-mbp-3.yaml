@@ -1,4 +1,0 @@
----
-boxen::security::require_password: true
-people::jdigger::system_roles:
-  - work

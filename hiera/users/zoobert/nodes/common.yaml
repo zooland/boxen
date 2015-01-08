@@ -1,0 +1,19 @@
+---
+ruby::global::version: "1.9.3-p547"
+nodejs::version: "v0.10.1"
+
+classes:
+  - intellij
+  - iterm2::stable
+  - p4merge
+  - packages::git_process
+  - packages::sublime_text_cli
+  - packages::sublime_text_package_management
+  - sublime_text
+  - wget
+
+boxen::security::require_password: true
+boxen::security::screensaver_delay_sec: 5
+
+people::zoobert::system_roles:
+  - workstation
