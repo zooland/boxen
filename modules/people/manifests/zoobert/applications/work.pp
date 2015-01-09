@@ -1,9 +1,9 @@
 # == Description
 #
-# Applications specific for Jim Moore (aka "jdigger") on
+# Applications specific for Kevin Loveland (aka "zoobert") on
 # his work machines.
 #
-class people::jdigger::applications::work {
+class people::zoobert::applications::work {
 
   # none yet...
 

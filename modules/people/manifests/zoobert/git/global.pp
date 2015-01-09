@@ -1,12 +1,12 @@
 # == Description
 #
-# Git settings anspecific for Jim Moore (aka "jdigger")
+# Git settings anspecific for Kevin Loveland (aka "zoobert")
 # that should be on all his machines.
 #
-class people::jdigger::git::global {
+class people::zoobert::git::global {
 
   git::config::global {
-    'user.name':     value  => 'Jim Moore';
+    'user.name':     value  => 'Kevin Loveland';
     'push.default':  value  => 'simple';
     'core.autocrlf': value  => 'input';
     'core.safecrlf': value  => 'warn';

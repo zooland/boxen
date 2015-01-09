@@ -1,9 +1,9 @@
 # == Description
 #
-# Applications specific for Jim Moore (aka "jdigger") on
+# Applications specific for Kevin Loveland (aka "zoobert") on
 # his personal (non-work) machines.
 #
-class people::jdigger::applications::personal {
+class people::zoobert::applications::personal {
 
   include 'calibre'
   include 'crashplan'

@@ -2,7 +2,7 @@
 #
 # Enable/Disable three-finger drag
 #
-class people::jdigger::osx::trackpad::threeFingerDrag (
+class people::zoobert::osx::trackpad::threeFingerDrag (
   $enable = true,
 ) {
 

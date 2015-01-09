@@ -1,12 +1,12 @@
 GITHUBTARBALL
-  remote: boxen/puppet-adium
+  remote: boxen/puppet-alfred
   specs:
-    adium (1.4.0)
+    alfred (1.4.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-augeas
+  remote: boxen/puppet-atom
   specs:
-    augeas (1.3.1)
+    atom (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -19,29 +19,14 @@ GITHUBTARBALL
     caffeine (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-calibre
-  specs:
-    calibre (3.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-cloudapp
-  specs:
-    cloudapp (1.0.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-crashplan
   specs:
     crashplan (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-cyberduck
-  specs:
-    cyberduck (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -89,21 +74,6 @@ GITHUBTARBALL
     go (2.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-googledrive
-  specs:
-    googledrive (1.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-graphviz
-  specs:
-    graphviz (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-handbrake
-  specs:
-    handbrake (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
     heroku (2.1.1)
@@ -119,11 +89,6 @@ GITHUBTARBALL
     hub (1.3.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-imagemagick
-  specs:
-    imagemagick (1.3.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-intellij
   specs:
     intellij (1.5.1)
@@ -136,27 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.7.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-keepassx
-  specs:
-    keepassx (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-kindle
-  specs:
-    kindle (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-launchbar
-  specs:
-    launchbar (1.2.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-mongodb
-  specs:
-    mongodb (1.3.3)
+    java (1.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -169,11 +114,6 @@ GITHUBTARBALL
     nodejs (4.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-omnigraffle
-  specs:
-    omnigraffle (1.3.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -182,11 +122,6 @@ GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
     osx (2.8.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-pcre
-  specs:
-    pcre (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -214,11 +149,6 @@ GITHUBTARBALL
     skitch (1.0.3)
 
 GITHUBTARBALL
-  remote: boxen/puppet-skydrive
-  specs:
-    skydrive (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
     skype (1.1.0)
@@ -239,19 +169,14 @@ GITHUBTARBALL
     steam (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
+  remote: boxen/puppet-sublime_text
   specs:
-    sublime_text_2 (1.1.2)
+    sublime_text (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-swig
-  specs:
-    swig (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-tmux
@@ -289,6 +214,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: burnsra/puppet-java6
+  specs:
+    java6 (0.0.4)
+
+GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
   specs:
     puppet-property_list_key (0.2.1)
@@ -309,18 +239,26 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 GITHUBTARBALL
-  remote: steinim/puppet-p4merge
+  remote: skottler/puppet-htop
   specs:
-    p4merge (0.0.3)
+    htop (1.0.0)
+
+GITHUBTARBALL
+  remote: steinim/puppet-maven
+  specs:
+    maven (1.0.7)
+
+GITHUBTARBALL
+  remote: zoobert/puppet-cyberduck
+  specs:
+    cyberduck (1.0.2)
 
 DEPENDENCIES
-  adium (~> 1.3)
-  augeas (~> 1.3)
+  alfred (~> 1.4)
+  atom (~> 1.2)
   boxen (= 3.7.0)
   caffeine (~> 1.0)
-  calibre (~> 3.1)
   chrome (~> 1.1)
-  cloudapp (~> 1.0)
   crashplan (~> 1.0)
   cyberduck (~> 1.0)
   dnsmasq (= 2.0.1)
@@ -332,44 +270,34 @@ DEPENDENCIES
   gcc (= 2.2.0)
   git (= 2.7.1)
   go (= 2.1.0)
-  googledrive (~> 1.0)
-  graphviz (~> 1.0)
-  handbrake (~> 1.0)
   heroku (~> 2.1)
   homebrew (= 1.9.8)
+  htop (~> 1.0)
   hub (= 1.3.0)
-  imagemagick (~> 1.2)
   inifile (= 1.1.1)
   intellij (~> 1.4)
   iterm2 (~> 1.0)
-  java (~> 1.5)
-  keepassx (~> 1.0)
-  kindle (~> 1.0)
-  launchbar (~> 1.1)
+  java (~> 1.8)
+  java6 (~> 0.0)
+  maven (~> 1.0)
   module_data (= 0.0.3)
-  mongodb (~> 1.3)
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
-  omnigraffle (~> 1.3)
   openssl (= 1.0.0)
   osx (~> 2.2)
-  p4merge (~> 0.0)
-  pcre (~> 1.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   puppet-property_list_key (~> 0.2)
   repository (= 2.3.0)
   ruby (= 8.1.7)
   skitch (~> 1.0)
-  skydrive (~> 1.0)
   skype (~> 1.0)
   sourcetree (~> 1.0)
   spotify (~> 1.0)
   stdlib (= 4.2.1)
   steam (~> 1.0)
-  sublime_text_2 (~> 1.1)
+  sublime_text (~> 1.1)
   sudo (= 1.0.0)
-  swig (~> 1.0)
   tmux (~> 1.0)
   vagrant (~> 3.0)
   virtualbox (~> 1.0)

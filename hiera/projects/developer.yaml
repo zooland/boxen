@@ -3,11 +3,12 @@ classes:
   - projects::developer
 
 # See https://github.com/boxen/puppet-java for docs
-java::update_version: 55
+java::base_download_url: 'http://artifactory.corp.ositax.com:8081/artifactory/distributions/jdk/boxen'
+java::update_version: '71'
 
 # See https://github.com/boxen/puppet-intellij for docs
 intellij::edition: 'ultimate'
-intellij::version: '13.1.2'
+intellij::version: '14.0.1'
 
 # "Sublime" is not in the name and alphabetized to make it easier to track
 sublime_text::packages:
@@ -27,8 +28,8 @@ sublime_text::packages:
     source: 'alek-sys/sublimetext_indentxml'
   'Linter':
     source: 'SublimeLinter/SublimeLinter'
-  'Package Control':
-    source: 'wbond/sublime_package_control'
+  # 'Package Control':
+  #   source: 'wbond/sublime_package_control'
   'Prefixr':
     source: 'wbond/sublime_prefixr'
   'PrettyJson':

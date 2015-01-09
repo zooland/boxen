@@ -1,14 +1,14 @@
 # == Description
 #
-# Sublime Text 2 settings specific for Jim Moore (aka "zoobert").
+# Sublime Text 2 settings specific for Kevin Lovekand (aka "zoobert").
 #
-class people::zoobert::sublime_text_2 {
+class people::zoobert::sublime_text {
 
-  include 'sublime_text_2'
+  include 'sublime_text'
 
   $home = "/Users/${::boxen_user}"
 
-  file { "${home}/Library/Application Support/Sublime Text 2/Packages/User":
+  file { "${home}/Library/Application Support/Sublime Text 3/Packages/User":
     ensure => 'directory',
     owner  => $::boxen_user,
     mode   => '0755',

@@ -9,7 +9,6 @@
 #
 class people::zoobert::dotfiles {
   include git
-  include 'oh-my-zsh'
 
   $home = "/Users/${::boxen_user}"
 

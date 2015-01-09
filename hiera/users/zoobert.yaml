@@ -37,8 +37,8 @@ sublime_text::packages:
     source: 'dz0ny/LiveReload-sublimetext2.git'
   'Markdown-Preview':
     source: 'revolunet/sublimetext-markdown-preview'
-  'Package Control':
-    source: 'wbond/sublime_package_control'
+  # 'Package Control':
+  #   source: 'wbond/sublime_package_control'
   'Pandoc':
     source: 'tbfisher/sublimetext-Pandoc'
   'Peek':   # provides quick access to documentation by opening help files in Quick Look

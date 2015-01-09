@@ -4,6 +4,8 @@
 #
 class projects::developer {
 
+  include 'java'
+  include 'java6'
   include 'projects::developer::applications'
 
   # vagrant::plugin { 'vagrant-vmware-fusion':

@@ -1,45 +1,25 @@
 # == Description
 #
-# Applications specific for Jim Moore (aka "jdigger")
+# Applications specific for Kevin Loveland (aka "zoobert")
 # that should be on all his machines.
 #
-class people::jdigger::applications::general {
+class people::zoobert::applications::general {
 
-  include 'adium'
-  include 'augeas'
   include 'caffeine'
   include 'chrome'
-  include 'cloudapp'
   include 'cyberduck'
   include 'docker'
   include 'dropbox'
   include 'firefox'
   include 'git'
-  include 'googledrive'
-  include 'graphviz'
   include 'heroku'
   include 'intellij'
-  include 'iterm2::stable'
-  include 'kindle'
-  include 'launchbar'
-  include 'mongodb'
-  include 'nodejs::global'
-  include 'omnigraffle::pro'
-  include 'packages::asciidoc'
-  include 'packages::bookmacster'
-  include 'packages::hermes'
+#  include 'oh-my-zsh'
   include 'packages::jenv'
-  include 'packages::lastpass'
-  include 'packages::springboot'
-  include 'packages::sourcetree_cli'
-  include 'packages::truecrypt'
-  include 'people::jdigger::applications::adium'
-  include 'skitch'
-  include 'skydrive'
   include 'skype'
   include 'sourcetree'
   include 'spotify'
-  include 'sublime_text_2'
+  include 'sublime_text'
   include 'tmux'
   include 'vagrant'
   include 'virtualbox'
