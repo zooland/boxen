@@ -61,6 +61,8 @@ github "puppet-property_list_key", "~> 0.2", :repo => "glarizza/puppet-property_
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "archive", "0.1.7", :repo => "nanliu/puppet-archive"
+
 ##
 ## Please keep sorted
 ##

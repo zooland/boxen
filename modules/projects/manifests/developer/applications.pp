@@ -12,6 +12,7 @@ class projects::developer::applications {
   # include 'packages::git_process'
   # include 'packages::gjslint'
   # include 'packages::jq'
+  include 'packages::oracle_client'
   include 'packages::sourcetree_cli'
   include 'packages::sublime_text_cli'
   include 'packages::sublime_text_package_management'
@@ -19,7 +20,7 @@ class projects::developer::applications {
   include 'sourcetree'
   include 'sublime_text'
   include 'vagrant'
-  include 'virtualbox'
+#  include 'virtualbox'
   include 'wget'
 
 }

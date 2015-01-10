@@ -8,7 +8,7 @@ class people::zoobert::applications::general {
   include 'caffeine'
   include 'chrome'
   include 'cyberduck'
-  include 'docker'
+# include 'docker'
   include 'dropbox'
   include 'firefox'
   include 'git'
@@ -22,7 +22,7 @@ class people::zoobert::applications::general {
   include 'sublime_text'
   include 'tmux'
   include 'vagrant'
-  include 'virtualbox'
+#  include 'virtualbox'
   include 'zsh'
 
   # Window mover, resizer and more

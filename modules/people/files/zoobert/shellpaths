@@ -13,3 +13,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # jenv
 export PATH="$HOME/.jenv/bin:$PATH"
+
+# Oracle client
+export PATH="$ORACLE_HOME/bin:$PATH"

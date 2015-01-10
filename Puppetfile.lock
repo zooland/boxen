@@ -186,12 +186,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.2.1)
+    vagrant (3.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.13)
+    virtualbox (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -222,6 +222,11 @@ GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
   specs:
     puppet-property_list_key (0.2.1)
+
+GITHUBTARBALL
+  remote: nanliu/puppet-archive
+  specs:
+    archive (0.1.7)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -255,6 +260,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   alfred (~> 1.4)
+  archive (= 0.1.7)
   atom (~> 1.2)
   boxen (= 3.7.0)
   caffeine (~> 1.0)
